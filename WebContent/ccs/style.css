@@ -1,0 +1,291 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  .logo {
+
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+    
+  }
+
+  nav{
+    background-color: #333;
+    font-size: 12px;
+   
+
+  }
+  
+ 
+  .nav li {
+    margin-left: 20px;
+  
+
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: white;
+    font-weight:100;
+    
+  }
+  .nav button{
+    font-weight:100;
+    color: rgb(0, 255, 145);
+    background: none;
+    border: none;
+   
+    
+  }
+   
+
+span {
+    margin-top: 10px;
+    margin-bottom: 100%;
+
+}
+span h2 {
+    font-size: 28px;
+    font-weight: 400;
+
+}
+span h3 {
+
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+#card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#card p {
+    font-size: 18px;
+    color: #666;
+}
+
+#card div span {
+    margin: 0%;
+
+}
+
+.texto-tarjetas{
+    border: 1px solid gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .main {
+  padding: 30px;
+ }
+  .main img {
+    width: 220px;
+    height: 200px;
+    justify-content: center;
+    object-fit: cover;
+    
+
+  }
+  .main h2 {
+    font-size: 12px; 
+    text-align: center;
+   
+  }
+  .main h3 {
+    font-size: 12;
+    text-align: center;
+
+}
+.main p {
+
+    text-align: center;
+    font-size: 5px;
+    width: 220px;
+    height: 130px;
+    
+}
+
+.imagenfoto {
+    display: flex;
+  
+
+
+
+}
+
+.imagenfoto img {
+width: 500px;
+object-fit: cover;
+} 
+
+
+
+.imagenfoto h2 {
+font-size: 32px;  
+color: white;
+padding: 20px; 
+} 
+
+.imagenfoto p {
+font-size: 18px; 
+color: white; 
+padding: 20px;
+}
+#formulario {
+text-align: center;
+padding: 20px;
+margin: 20px;
+} 
+#formulario span {
+margin-bottom: 0%;
+
+}
+#formulario h3 {
+    font-weight: 100;
+}
+
+#formulario input{ 
+    height: 30px;
+    width: 280px;
+
+}
+
+#formulario button {
+    height: 30px;
+    width: 400px;
+    background-color:  rgb(0, 255, 145);
+    border: 0 ;
+}
+.textarea {
+  display: inline;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.footer {
+display: flex; 
+align-items: center; 
+justify-content:center ; 
+height: 50px; 
+background-color: #235ceb;  
+} 
+
+.footer a {
+text-decoration: none; 
+color: #fff; 
+font-size: 12px;
+
+
+} 
+
+.form {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+ 
+}
+
+.form h2 {
+  color: #333;
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+.form p {
+  color: #333;
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+.form label {
+  color: #333;
+  font-size: 16px;
+  display: inline;
+  margin: 10px 0;
+
+  
+}
+
+.form input, .form select {
+  
+  width: 30%;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin: 10PX 0;
+  text-align: center;
+}
+
+
+
+
+.input-container{
+  width: 70%;
+  display: inline-block;
+  text-align:center;
+  padding: 0px;
+  
+}
+#correo{
+  width: 60%;
+  height: 30px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  display: block;
+  
+  margin: 0 auto;
+}
+#total{
+  display: block;
+  margin: 0 auto;
+  
+}
+
+#tarjetas {
+  
+  border: 1px solid #666;
+  height: 200px;
+  text-align: center;
+  margin: 20px 20px 20px 10px;
+  
+  
+ 
+  
+
+}
+
+
+
+.form button {
+  width: 40%;
+  height: 40px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  margin: 10px 0;
+  display: inline;
+ 
+ 
+}
+
+.form button:hover {
+  background-color: #666;
+}
+
