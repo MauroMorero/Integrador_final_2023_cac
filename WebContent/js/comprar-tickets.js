@@ -97,6 +97,7 @@ function total_a_pagar() {
 
     // Inserto el valor en el HTML
     totalPago.innerHTML = totalValorTickets;
+   
 }
 
 // Botón Resumen recibe un escuchador y la funcion del cálculo
